@@ -1,8 +1,25 @@
 aid: nway
-name: nway
-description: 'nway is a company surfaced as a portfolio company of cowboy-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nway.png
+name: nWay
+description: 'nWay is a San Francisco-based multiplayer game developer and publisher
+  founded in 2011, known for real-time synchronous PvP titles including Power Rangers:
+  Legacy Wars (70M+ downloads), Power Rangers: Battle for the Grid, and the Web3 mech-combat
+  game Wreck League. Its proprietary nWayPlay engine powers fast-paced cross-platform
+  multiplayer across mobile, PC, and console. nWay was surfaced as a portfolio lead
+  of cowboy-ventures. As a consumer gaming studio it publishes no public developer
+  API, developer portal, or documented API surface; enrichment probes of its website,
+  /.well-known/security.txt, and /llms.txt returned no API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/nway/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Gaming
+- Video Games
+- Multiplayer
+- Mobile Games
+- Web3
+- Entertainment
 apis: []
+common:
+- type: Website
+  url: https://nway.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
